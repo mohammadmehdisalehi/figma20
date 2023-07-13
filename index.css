@@ -1,1 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --gr: #f0f2f5;
+  --ge: #20dc49;
+}
+.bgi-1 {
+  background-image: url(./img/bg1.svg);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 90rem;
+}
+.bg-gray {
+  width: 55%;
+  height: 900px;
+  background-color: var(--gr);
+}
+.but1 {
+  background-color: var(--ge);
+  padding: .67rem 3.1rem ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4.75rem;
+  width:17rem;
+  height:4.4rem;
+  border: 0;
+}
+.mn
+{
+ margin-left: -2.6rem;
+}
+.p-top1
+{
+    padding-top: 13rem;
+}
+.bgi-2 {
+    background-image: url(./img/r10.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10rem;
+  }
